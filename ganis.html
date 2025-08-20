@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ganis - Mario Kart Champion</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #ff6b6b, #4ecdc4);
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        
+        h1 {
+            color: #e74c3c;
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        .subtitle {
+            font-size: 1.2em;
+            color: #3498db;
+            margin-bottom: 20px;
+        }
+        
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background: linear-gradient(45deg, #ff4757, #ff6348);
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4em;
+        }
+        
+        .section {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        h2 {
+            color: #2c3e50;
+            border-bottom: 3px solid #e74c3c;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+        
+        .stat-card {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            display: block;
+        }
+        
+        .favorite-tracks {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+        
+        .track-card {
+            background: linear-gradient(135deg, #ffecd2, #fcb69f);
+            padding: 15px;
+            border-radius: 10px;
+            border-left: 5px solid #e74c3c;
+        }
+        
+        .track-name {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        
+        .characters {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        
+        .character-card {
+            background: linear-gradient(135deg, #a8edea, #fed6e3);
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+            flex: 1;
+            min-width: 150px;
+        }
+        
+        .character-icon {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            color: white;
+        }
+        
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        
+        .social-link {
+            background: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            text-decoration: none;
+            transition: transform 0.3s ease;
+        }
+        
+        .social-link:hover {
+            transform: translateY(-3px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="profile-img">🏎️</div>
+            <h1>Ganis</h1>
+            <p class="subtitle">Mario Kart Enthusiast & Racing Champion</p>
+            <p>Welcome to my Mario Kart universe! Get ready to race!</p>
+        </header>
+
+        <div class="section">
+            <h2>🏆 Racing Stats</h2>
+            <div class="stats">
+                <div class="stat-card">
+                    <span class="stat-number">1,247</span>
+                    <span>Races Won</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">89%</span>
+                    <span>Win Rate</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">15,632</span>
+                    <span>Total Races</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number">342</span>
+                    <span>Perfect Runs</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🏁 Favorite Tracks</h2>
+            <div class="favorite-tracks">
+                <div class="track-card">
+                    <div class="track-name">Rainbow Road</div>
+                    <p>The ultimate challenge - nothing beats the cosmic beauty and difficulty!</p>
+                </div>
+                <div class="track-card">
+                    <div class="track-name">Bowser's Castle</div>
+                    <p>Love the lava obstacles and the intense atmosphere.</p>
+                </div>
+                <div class="track-card">
+                    <div class="track-name">Mario Circuit</div>
+                    <p>Classic track where I perfected my racing skills.</p>
+                </div>
+                <div class="track-card">
+                    <div class="track-name">Wario Stadium</div>
+                    <p>The jumps and tight turns make every race exciting!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>👥 Main Characters</h2>
+            <div class="characters">
+                <div class="character-card">
+                    <div class="character-icon">🍄</div>
+                    <strong>Mario</strong>
+                    <p>Balanced stats, perfect for any track</p>
+                </div>
+                <div class="character-card">
+                    <div class="character-icon">⭐</div>
+                    <strong>Yoshi</strong>
+                    <p>Great acceleration for quick recoveries</p>
+                </div>
+                <div class="character-card">
+                    <div class="character-icon">👑</div>
+                    <strong>Peach</strong>
+                    <p>Excellent handling for technical tracks</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🎮 Gaming Setup</h2>
+            <p><strong>Console:</strong> Nintendo Switch & Nintendo 64 (for the classics!)</p>
+            <p><strong>Controller:</strong> Pro Controller for precision racing</p>
+            <p><strong>Favorite Game:</strong> Mario Kart 8 Deluxe</p>
+            <p><strong>Playing Since:</strong> Mario Kart 64 - been racing for over 20 years!</p>
+        </div>
+
+        <div class="section">
+            <h2>🏆 Recent Achievements</h2>
+            <ul>
+                <li>🥇 Won the local Mario Kart tournament 2024</li>
+                <li>⚡ Set new personal record on Rainbow Road: 2:45.67</li>
+                <li>🎯 Completed all Time Trials with 3-star rating</li>
+                <li>🌟 Unlocked all characters and vehicles</li>
+                <li>🏁 100% completion on Mario Kart 8 Deluxe</li>
+            </ul>
+        </div>
+
+        <footer>
+            <p>Let's race! Challenge me anytime for an epic Mario Kart battle!</p>
+            <div class="social-links">
+                <a href="#" class="social-link">🎮 Nintendo Friend Code</a>
+                <a href="#" class="social-link">📧 Contact Me</a>
+                <a href="#" class="social-link">🏆 Racing Stats</a>
+            </div>
+            <p style="margin-top: 20px;">© 2024 Ganis - Mario Kart Champion</p>
+        </footer>
+    </div>
+</body>
+</html>
