@@ -8,6 +8,7 @@ The goal:
 ✅ Work directly inside **GitHub**  
 ✅ Use **Pull Requests (PRs)** for requirements & docs  
 ✅ Learn **context engineering** → not too verbose, not too short  
+✅ Develop your first webpages.
 ✅ File bugs/issues **inside the repo**  
 ✅ Collaborate with developers & AI in one flow  
 
